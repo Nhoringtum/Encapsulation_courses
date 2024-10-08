@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\ehamida\source\repos\Day01\Exercice_1\Exercice_1\main.cpp(7,17): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\ehamida\source\repos\Day01\Exercice_1\Exercice_1\main.cpp(8,17): warning C4305: 'argument' : troncation de 'double' à 'float'
+  Exercice_1.vcxproj -> C:\Users\ehamida\source\repos\Day01\Exercice_1\Exercice_1\x64\Debug\Exercice_1.exe
