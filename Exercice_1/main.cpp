@@ -9,6 +9,14 @@ int	main(void)
 
 	Vector2	mySumVector = myOperatorVector + test;
 
+	Integer myInt;
+	Integer myCustomInt(8);
+	Integer myCustomFloatToInt(15.f);
+
+	std::cout << myInt;
+	std::cout << myCustomInt;
+	std::cout << myCustomFloatToInt + myCustomInt;
+
 	std::cout << mySumVector;
 	
 	return (0);

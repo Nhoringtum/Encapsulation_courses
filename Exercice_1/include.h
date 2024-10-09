@@ -7,5 +7,6 @@
 #include "Alive.h"
 #include "IAttacker.h"
 #include "StaticObject.h"
+#include "Integer.h"
 
 #endif
