@@ -2,26 +2,14 @@
 
 int	main(void)
 {
-	/* --> Test exercice 1
-	Vector2* myVector = new Vector2(60.0, 50.0);
-	myVector->printXY();
-	myVector->setX(999.999);
-	myVector->setY(66.6);
-	myVector->printXY();
-	myVector->setXY(4.2, 2.4);
-	myVector->printXY();
-	*/
+	Vector2* mySimpleVector = new Vector2;
+	Vector2* mySettedVector = new Vector2(2.f, 10.f);
+	Vector2 myOperatorVector = Vector2(44.f, 88.f);
+	Vector2 test = Vector2(1.f, 1.f);
 
-	/* --> Test exercice 2
-	Entity* myEntity = new Entity(5.f, 42.f);
-	Vector2* myVector = new Vector2(44.f, 33.f);
+	Vector2	mySumVector = myOperatorVector + test;
 
-	myVector->printXY();
-	myVector->setX(0.f);
-	myVector->printXY();
-	myEntity->setCoordXY(999.f, 666.f);
-	myEntity->vect.printXY();
-	*/
-
+	std::cout << mySumVector;
+	
 	return (0);
 }
