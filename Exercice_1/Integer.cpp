@@ -2,10 +2,16 @@
 #include <iostream>
 #include <cmath>
 
-Integer::Integer() : x(0) {};
+Integer::Integer() : x(0)
+{
+};
 
-Integer::Integer(int _myInt) : x(_myInt) {};
-Integer::Integer(float _myFloat) : x(_myFloat) {};
+Integer::Integer(int _myInt) : x(_myInt)
+{
+};
+Integer::Integer(float _myFloat) : x(_myFloat)
+{
+};
 
 Integer Integer::operator+(const Integer& _add)
 {

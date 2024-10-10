@@ -7,7 +7,8 @@ public:
 	float maxLife;
 	float actualLife;
 
-	Alive(float maxLife);
+	Alive();
+	Alive(float maxLife, float actualLife);
 
 	virtual float getMaxLife();
 	virtual float getActualLife();

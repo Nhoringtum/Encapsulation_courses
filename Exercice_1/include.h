@@ -8,5 +8,8 @@
 #include "IAttacker.h"
 #include "StaticObject.h"
 #include "Integer.h"
+#include "BreakableObject.h"
+#include "Mob.h"
+#include "player.h"
 
 #endif

@@ -5,7 +5,7 @@
 class IAttacker
 {
 public:
-	virtual void attack(Alive& playerOne) = 0;
+	virtual void attack(Alive& target) = 0;
 };
 
 #endif

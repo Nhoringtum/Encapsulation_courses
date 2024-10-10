@@ -1,6 +1,8 @@
 #include "Alive.h"
 
-Alive::Alive(float _maxLife) : maxLife(_maxLife){}
+Alive::Alive() : maxLife(10), actualLife(maxLife){}
+
+Alive::Alive(float _maxLife, float _actualLife) : maxLife(_maxLife), actualLife(_actualLife){}
 
 Alive::~Alive(){}
 
