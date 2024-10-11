@@ -12,10 +12,10 @@ void Mob::takeDamage(float _damage)
 	Alive::takeDamage(_damage);
 	std::cout << "Mob just die";
 }
-/*
-void Mob::move(float _x, float _y)
+
+void Mob::move()
 {
-	//AMovable::move(_x, _y);
-	std::cout << "Mob move to x = " << _x << " and y = " << _y << std::endl;
+	vect.x = dir.x;
+	vect.y = dir.y;
+	std::cout << "Mob move to x = " << vect.x << " and y = " << vect.y << std::endl;
 }
-*/

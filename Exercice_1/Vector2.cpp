@@ -1,6 +1,7 @@
 #include "Vector2.h"
 #include <iostream>
 #include <string>
+#include <math.h>
 
 Vector2::Vector2(float _x, float _y) : x(_x), y(_y){}
 
@@ -44,6 +45,11 @@ float Vector2::getX() const
 float Vector2::getY() const
 {
 	return (this->y);
+}
+
+void Vector2::normalize(Vector2& _vect)
+{
+	normalize(_vect);
 }
 
 std::ostream& operator<<(std::ostream& os, const Vector2& vect)

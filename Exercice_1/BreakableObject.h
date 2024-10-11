@@ -10,7 +10,6 @@ public:
 	BreakableObject(float x, float y, float maxLife, float actualLife);
 
 	void takeDamage(float damage);
-
 };
 
 #endif

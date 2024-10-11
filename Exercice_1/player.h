@@ -11,8 +11,9 @@ public:
 	Player(float x, float y, float maxLife, float actualLife, Vector2 dir);
 
 	void takeDamage(float damage);
-	//void move(float x, float y);
-	void IAttacker(Alive& target);
+	void move();
+	void attack(Alive& target) override;
+
 };
 
 #endif

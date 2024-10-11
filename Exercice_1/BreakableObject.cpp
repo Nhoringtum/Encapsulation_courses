@@ -6,9 +6,9 @@ BreakableObject::BreakableObject() : Entity(), Alive()
 	std::cout << "Breakable Object just created at x = 0 and y = 0 with 10 life (default values)" << std::endl;
 }
 
-BreakableObject::BreakableObject(float x, float y, float maxLife, float actualLife) : Entity(x, y), Alive(maxLife, actualLife)
+BreakableObject::BreakableObject(float _x, float _y, float _maxLife, float _actualLife) : Entity(_x, _y), Alive(_maxLife, _actualLife)
 {
-	std::cout << "Breakable Object just created at x = " << x << " and y = " << y << " with " << maxLife << " life" << std::endl;
+	std::cout << "Breakable Object just created at x = " << _x << " and y = " << _y << " with " << _maxLife << " life" << std::endl;
 }
 
 void BreakableObject::takeDamage(float _damage)

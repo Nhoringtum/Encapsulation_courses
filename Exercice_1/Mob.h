@@ -1,3 +1,4 @@
+#pragma once
 #ifndef __MOB_H__
 #define __MOB_H__
 #include "Entity.h"
@@ -11,7 +12,7 @@ public:
 	Mob(float x, float y, float maxLife, float actualLife, Vector2 _dir, float _spd);
 
 	void takeDamage(float damage);
-	//void move(float x, float y);
+	void move();
 };
 
 #endif

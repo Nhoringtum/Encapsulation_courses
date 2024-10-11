@@ -2,7 +2,11 @@
 
 Alive::Alive() : maxLife(10), actualLife(maxLife){}
 
-Alive::Alive(float _maxLife, float _actualLife) : maxLife(_maxLife), actualLife(_actualLife){}
+Alive::Alive(float _maxLife, float _actualLife) : maxLife(_maxLife), actualLife(_actualLife)
+{ 
+	if (actualLife > maxLife)
+		actualLife = maxLife;
+}
 
 Alive::~Alive(){}
 

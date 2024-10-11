@@ -14,10 +14,11 @@ public:
 
 	void setXY(float x, float y);
 	void setX(float x);
-	void setX(std::string _xstr);
+	void setX(std::string xstr);
 	void setY(float y);
 	float getX() const;
 	float getY() const;
+	void normalize(Vector2& vect);
 
 	friend std::ostream& operator<<(std::ostream& os, const Vector2& vect);
 
