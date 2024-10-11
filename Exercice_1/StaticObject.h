@@ -6,8 +6,6 @@ class StaticObject : public Entity
 {
 public:
 	Entity myEntity;
-	float x;
-	float y;
 
 	StaticObject(float x, float y);
 };

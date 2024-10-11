@@ -47,10 +47,10 @@ float Vector2::getY() const
 	return (this->y);
 }
 
-void Vector2::normalize(Vector2& _vect)
-{
-	normalize(_vect);
-}
+//void Vector2::normalize(Vector2& _vect)
+//{
+//	normalize(_vect);
+//}
 
 std::ostream& operator<<(std::ostream& os, const Vector2& vect)
 {
